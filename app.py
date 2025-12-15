@@ -13,8 +13,8 @@ def img_to_bytes(img_path):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-bg_image_file = r"design_component\background.png"
-spinner_image_file = "design_component\jam_pasir.png"
+bg_image_file = "background.png"
+spinner_image_file = "jam_pasir.png"
 
 st.set_page_config(page_title="AI Interview Assessor", page_icon="🤖", layout="wide")
 
